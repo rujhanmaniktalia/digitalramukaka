@@ -13,7 +13,7 @@ const mqtt = require("mqtt");
 const REST_PORT = (process.env.PORT || 5000);
 const APIAI_ACCESS_TOKEN = process.env.APIAI_ACCESS_TOKEN || '827f0d8478a14e2d933ecdf70885fc36';
 const APIAI_LANG = process.env.APIAI_LANG || 'en';
-const FB_VERIFY_TOKEN = process.env.FB_VERIFY_TOKEN || '123456789';
+const FB_VERIFY_TOKEN = process.env.FB_VERIFY_TOKEN || '12345';
 const FB_PAGE_ACCESS_TOKEN = process.env.FB_PAGE_ACCESS_TOKEN || 'EAADNX6VBPjgBAL6AsMORL17xDy6kPMs1QalCWgr4ICPS24Bp159xT9y4n744N0YMJdXZBP1xKZANo2XJ7dkat2GE2WqSaltrAbrVes49CBUEyHeQpMB5sIs30BUoF8IgRKLZCM0qnizyXYB7kwu1ZBDyYhjxqQGlVdoxYr03OIA47yl1pDFy';
 const FB_TEXT_LIMIT = 640;
 
